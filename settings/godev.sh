@@ -11,6 +11,9 @@ go get -u -v golang.org/x/tools/cmd/goimports
 go get -u -v github.com/alecthomas/gometalinter
 go get -u -v github.com/kardianos/govendor
 
+echo "export GOPATH=~/go" >> ~/.bashrc
+echo "export PATH=\$PATH:\$GOPATH/bin" >> ~/.bashrc
+
 gometalinter --install
 
 apt update && sudo apt-get install -y texinfo make
