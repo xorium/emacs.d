@@ -130,7 +130,7 @@
 ;; Golang settings
 
 ;; Buffer navigation
-(global-set-key (kbd "M-P") 'recenter-top-bottom)
+(global-set-key (kbd "M-p") 'recenter-top-bottom)
 (global-set-key (kbd "C-g") 'goto-line)
 ;; Panels navigation
 (global-set-key (kbd "C-j")  'windmove-left)
