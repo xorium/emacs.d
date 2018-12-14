@@ -1,0 +1,6 @@
+(:name go-rename
+       :description "Auto renaming plugin for Golang"
+       :type github
+       :pkgname "dominikh/go-mode.el"
+       :depends go-mode
+)

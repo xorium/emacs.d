@@ -1,0 +1,11 @@
+(:name ergoemacs-mode
+       :website "https://ergoemacs.github.io/"
+       :description "Ergonomic mode for emacs."
+       :type github
+       :pkgname "/ergoemacs/ergoemacs-mode"
+       :post-init (progn
+                    (setq ergoemacs-theme nil)
+                    (setq ergoemacs-keyboard-layout "us")
+                    (ergoemacs-mode 1)
+        )
+)

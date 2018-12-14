@@ -1,0 +1,9 @@
+(:name window-purpose
+       :website "https://github.com/bmag/emacs-purpose"
+       :description "Provides a new window management system for Emacs, which gives you a better control over where Emacs displays buffers."
+       :type github
+       :pkgname "/bmag/emacs-purpose"
+       :post-init (progn
+                    (purpose-mode)
+        )
+)
